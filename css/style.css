@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Dongle,sans-serif; }
+
+.navbarPages {
+  flex-grow: unset; }
+
+.navbar-light .navbar-brand {
+  font-size: 60px;
+  font-weight: bold;
+  color: #6B7986; }
+  .navbar-light .navbar-brand:hover {
+    color: #F2B157; }
+
+.navbar {
+  font-size: 28px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.09); }
+  .navbar .navbar__div {
+    margin: auto 20px;
+    height: 70px; }
+    @media (max-width: 1024px) {
+      .navbar .navbar__div {
+        line-height: 1; } }
+    @media (max-width: 992px) {
+      .navbar .navbar__div {
+        line-height: 1;
+        height: auto; } }
+    .navbar .navbar__div .logotipo {
+      height: 28px;
+      width: 28px;
+      margin: 0;
+      margin-bottom: 17px;
+      margin-right: 4px;
+      padding: 0; }
+      @media (max-width: 992px) {
+        .navbar .navbar__div .logotipo {
+          height: 23px;
+          width: 23px;
+          margin-bottom: 11px; } }
+      @media (max-width: 425px) {
+        .navbar .navbar__div .logotipo {
+          height: 22px;
+          width: 22px; } }
+      .navbar .navbar__div .logotipo div ul li .nav__link {
+        color: #42474d;
+        text-decoration: none;
+        margin: 0 10px;
+        font-weight: 500;
+        transition: all .2s; }
+    .navbar .navbar__div div ul li .nav__link {
+      color: #42474d;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+      transition: all .2s; }
+      .navbar .navbar__div div ul li .nav__link:hover {
+        color: #F2B157;
+        font-weight: bold; }
+    .navbar .navbar__div div ul li .active {
+      color: #F2B157;
+      font-weight: bold; }
+    .navbar .navbar__div .navbar__button {
+      margin: auto 10px;
+      border: 1px solid;
+      border-color: #6B7986;
+      font-size: 25px;
+      padding: 5px 5px;
+      height: 35px;
+      line-height: 1; }
+      .navbar .navbar__div .navbar__button:hover {
+        background-color: #F2B157;
+        color: white;
+        border-color: #F2B157; }
+
+.main {
+  margin: 0;
+  padding: 0; }
+  .main .backgroundOpaco__img {
+    background-image: url("../images/man-holding-retro-camera.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-position-x: center;
+    background-size: cover; }
+    .main .backgroundOpaco__img .backgroundOpaco {
+      background-color: rgba(0, 0, 0, 0.548);
+      margin: 0;
+      padding: 0;
+      height: 90vh; }
+      @media (max-width: 1024px) {
+        .main .backgroundOpaco__img .backgroundOpaco {
+          background-size: cover; } }
+      .main .backgroundOpaco__img .backgroundOpaco .slogan {
+        margin-bottom: 150px;
+        width: 350px; }
+        .main .backgroundOpaco__img .backgroundOpaco .slogan h2 {
+          color: white;
+          font-size: 60px;
+          text-align: center;
+          line-height: 1;
+          font-weight: 500; }
+  .main .informacion {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 40px 30px;
+    background-color: #f8f6f6; }
+    @media (max-width: 992px) {
+      .main .informacion {
+        padding: 40px 15px; } }
+    .main .informacion .tarjeta {
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.281);
+      border-radius: 20px;
+      height: auto;
+      padding: 30px;
+      margin: 15px;
+      max-width: 25vw; }
+      @media (max-width: 992px) {
+        .main .informacion .tarjeta {
+          max-width: 100%; } }
+      .main .informacion .tarjeta h3 {
+        font-size: 40px;
+        text-align: center;
+        color: #F2B157;
+        font-weight: 500;
+        line-height: .65; }
+      .main .informacion .tarjeta p {
+        max-width: fit-content;
+        font-size: 30px;
+        line-height: .8;
+        font-weight: 300;
+        text-align: center; }
+
+.footerDiv {
+  height: auto;
+  background-color: #6B7986;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px; }
+  .footerDiv .footerDiv__item {
+    margin: auto;
+    height: 70px; }
+    .footerDiv .footerDiv__item h3 {
+      margin: 12px;
+      font-size: 1.65em;
+      color: white; }
+    .footerDiv .footerDiv__item p {
+      color: white;
+      font-size: 1.5em;
+      margin: 0;
+      font-weight: lighter;
+      padding-top: 8px; }
+    .footerDiv .footerDiv__item img {
+      margin: 9px 3px; }
+    .footerDiv .footerDiv__item .socialicon {
+      width: 30px;
+      height: 30px;
+      padding: 0%; }
+
+.copy {
+  font-size: 1.1em;
+  line-height: .8;
+  background-color: #6B7986;
+  color: white;
+  font-weight: lighter; }
+
+/* AJUSTES PARA RESPONSIVE */
+@media (max-width: 1024px) {
+  .hide {
+    display: none; } }
+
+@media (max-width: 992px) {
+  .navbar-light .navbar-brand {
+    font-size: 45px; }
+  .navbar-toggler {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 7px; }
+  .informacion-gn__items img {
+    max-width: 230px; } }
+
+@media (max-width: 768px) {
+  .informacion-gn__items img {
+    max-width: 580px;
+    margin-top: 20px; } }
+
+@media (max-width: 425px) {
+  .navbar-light .navbar-brand {
+    font-size: 1.5em; }
+  .navbar-toggler {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding: 6px; }
+  .navbar-toggler {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    padding: 5px; }
+  .informacion-gn__items img {
+    max-width: 290px; } }

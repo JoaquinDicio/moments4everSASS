@@ -1,0 +1,40 @@
+
+.footerDiv{
+    height: auto;
+    background-color: #6B7986;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    .footerDiv__item{
+        margin: auto;
+        height: 70px;
+        h3{
+            margin:12px;
+            font-size: 1.65em;
+            color: white;
+        }
+        p{
+            color: white;
+            font-size:1.5em;
+            margin: 0;
+            font-weight: lighter;
+            padding-top: 8px;
+        }
+        img{
+            margin: 9px 3px;
+        }
+        .socialicon{
+            width: 30px;
+            height: 30px;
+            padding: 0%;
+        }
+    }
+}
+
+.copy{
+    font-size: 1.1em;
+    line-height: .8;
+    background-color: #6B7986;
+    color: white;
+    font-weight: lighter;
+}
