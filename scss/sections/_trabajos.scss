@@ -1,0 +1,33 @@
+.informacion-gn{
+
+    h2{
+        line-height: .8;
+        color: #F2B157;
+        font-size: 2.3em;
+    }
+    p{
+        margin-top: 10px;
+        line-height: .8;
+        font-size: 1.8em;
+        font-weight: lighter;
+        margin-bottom: 30px;
+        text-align: justify;
+        margin-right: 8px;
+    }
+    .row{
+        .col-lg-9{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .imgMuestra{
+                            border-radius: 10px;
+                            max-width: 80vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
