@@ -1,0 +1,62 @@
+@media (max-width:1024px) {
+    .navbar{
+        .navbar__div{
+            line-height: 1;
+            .hide{
+                display: none;
+            }
+        }
+    }
+    .container-fluid{
+        .backgroundOpaco__img{
+            background-size: cover;
+        }
+    }
+}
+@media (max-width:992px) {
+    .navbar-light{
+        .navbar__div{
+            height: auto;
+            .logotipo{
+                height: 23px;
+                width: 23px;
+                margin-bottom: 11px;
+            }
+            .navbar-brand{
+                font-size:2em;
+            }
+            .navbar-toggler{
+                font-size: 1.1rem;
+                margin-bottom: 5px;
+                padding: 7px;
+            }
+        }
+    }
+    .container-fluid{
+        .informacion{
+            padding: 40px 15px;
+            .tarjeta{
+                max-width: 100%;
+            }
+        }
+    }
+}
+@media (max-width:425px) {
+    .navbar-light{
+        .navbar__div{
+            .logotipo{
+                height: 22px;
+                width: 22px;
+                margin-bottom: 11px;
+            }
+            .navbar-brand{
+                font-size: 1.5em;
+            }
+            .navbar-toggler{
+                font-size: 1rem;
+                margin-bottom: 5px;
+                padding: 6px;
+            }
+        }
+    }
+}

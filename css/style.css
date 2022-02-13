@@ -21,13 +21,6 @@
   .navbar .navbar__div {
     margin: auto 20px;
     height: 70px; }
-    @media (max-width: 1024px) {
-      .navbar .navbar__div {
-        line-height: 1; } }
-    @media (max-width: 992px) {
-      .navbar .navbar__div {
-        line-height: 1;
-        height: auto; } }
     .navbar .navbar__div .logotipo {
       height: 28px;
       width: 28px;
@@ -35,15 +28,6 @@
       margin-bottom: 17px;
       margin-right: 4px;
       padding: 0; }
-      @media (max-width: 992px) {
-        .navbar .navbar__div .logotipo {
-          height: 23px;
-          width: 23px;
-          margin-bottom: 11px; } }
-      @media (max-width: 425px) {
-        .navbar .navbar__div .logotipo {
-          height: 22px;
-          width: 22px; } }
       .navbar .navbar__div .logotipo div ul li .nav__link {
         color: #42474d;
         text-decoration: none;
@@ -92,9 +76,6 @@
       margin: 0;
       padding: 0;
       height: 90vh; }
-      @media (max-width: 1024px) {
-        .main .backgroundOpaco__img .backgroundOpaco {
-          background-size: cover; } }
       .main .backgroundOpaco__img .backgroundOpaco .slogan {
         margin-bottom: 150px;
         width: 350px; }
@@ -110,9 +91,6 @@
     margin: 0;
     padding: 40px 30px;
     background-color: #f8f6f6; }
-    @media (max-width: 992px) {
-      .main .informacion {
-        padding: 40px 15px; } }
     .main .informacion .tarjeta {
       box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.281);
       border-radius: 20px;
@@ -120,9 +98,6 @@
       padding: 30px;
       margin: 15px;
       max-width: 25vw; }
-      @media (max-width: 992px) {
-        .main .informacion .tarjeta {
-          max-width: 100%; } }
       .main .informacion .tarjeta h3 {
         font-size: 40px;
         text-align: center;
@@ -169,36 +144,40 @@
   color: white;
   font-weight: lighter; }
 
-/* AJUSTES PARA RESPONSIVE */
 @media (max-width: 1024px) {
-  .hide {
-    display: none; } }
+  .navbar .navbar__div {
+    line-height: 1; }
+    .navbar .navbar__div .hide {
+      display: none; }
+  .container-fluid .backgroundOpaco__img {
+    background-size: cover; } }
 
 @media (max-width: 992px) {
-  .navbar-light .navbar-brand {
-    font-size: 45px; }
-  .navbar-toggler {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    padding: 7px; }
-  .informacion-gn__items img {
-    max-width: 230px; } }
-
-@media (max-width: 768px) {
-  .informacion-gn__items img {
-    max-width: 580px;
-    margin-top: 20px; } }
+  .navbar-light .navbar__div {
+    height: auto; }
+    .navbar-light .navbar__div .logotipo {
+      height: 23px;
+      width: 23px;
+      margin-bottom: 11px; }
+    .navbar-light .navbar__div .navbar-brand {
+      font-size: 2em; }
+    .navbar-light .navbar__div .navbar-toggler {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+      padding: 7px; }
+  .container-fluid .informacion {
+    padding: 40px 15px; }
+    .container-fluid .informacion .tarjeta {
+      max-width: 100%; } }
 
 @media (max-width: 425px) {
-  .navbar-light .navbar-brand {
+  .navbar-light .navbar__div .logotipo {
+    height: 22px;
+    width: 22px;
+    margin-bottom: 11px; }
+  .navbar-light .navbar__div .navbar-brand {
     font-size: 1.5em; }
-  .navbar-toggler {
+  .navbar-light .navbar__div .navbar-toggler {
     font-size: 1rem;
     margin-bottom: 5px;
-    padding: 6px; }
-  .navbar-toggler {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    padding: 5px; }
-  .informacion-gn__items img {
-    max-width: 290px; } }
+    padding: 6px; } }
