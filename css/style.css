@@ -5,6 +5,20 @@
   text-decoration: none;
   font-family: Dongle,sans-serif; }
 
+.main .informacion .tarjeta {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.281);
+  border-radius: 20px;
+  height: auto;
+  padding: 30px;
+  margin: 15px;
+  max-width: 25vw; }
+
+#h2 {
+  color: blue; }
+
+#h3 {
+  color: red; }
+
 .navbarPages {
   flex-grow: unset; }
 
@@ -12,6 +26,10 @@
   font-size: 60px;
   font-weight: bold;
   color: #6B7986; }
+  .navbar-light .navbar-brand h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: bold; }
   .navbar-light .navbar-brand:hover {
     color: #F2B157; }
 
@@ -25,7 +43,7 @@
       height: 28px;
       width: 28px;
       margin: 0;
-      margin-bottom: 17px;
+      margin-bottom: 14px;
       margin-right: 4px;
       padding: 0; }
       .navbar .navbar__div .logotipo div ul li .nav__link {
@@ -91,25 +109,18 @@
     margin: 0;
     padding: 40px 30px;
     background-color: #f8f6f6; }
-    .main .informacion .tarjeta {
-      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.281);
-      border-radius: 20px;
-      height: auto;
-      padding: 30px;
-      margin: 15px;
-      max-width: 25vw; }
-      .main .informacion .tarjeta h3 {
-        font-size: 40px;
-        text-align: center;
-        color: #F2B157;
-        font-weight: 500;
-        line-height: .65; }
-      .main .informacion .tarjeta p {
-        max-width: fit-content;
-        font-size: 30px;
-        line-height: .8;
-        font-weight: 300;
-        text-align: center; }
+    .main .informacion .tarjeta h3 {
+      font-size: 40px;
+      text-align: center;
+      color: #F2B157;
+      font-weight: 500;
+      line-height: .65; }
+    .main .informacion .tarjeta p {
+      max-width: fit-content;
+      font-size: 30px;
+      line-height: 0.8;
+      font-weight: 300;
+      text-align: center; }
 
 .informacion-gn {
   margin: 50px auto;
@@ -163,8 +174,8 @@
       height: 23px;
       width: 23px;
       margin-bottom: 11px; }
-    .navbar-light .navbar__div .navbar-brand {
-      font-size: 2em; }
+    .navbar-light .navbar__div .navbar-brand h1 {
+      font-size: 1em; }
     .navbar-light .navbar__div .navbar-toggler {
       font-size: 1.1rem;
       margin-bottom: 5px;
@@ -177,15 +188,17 @@
 @media (max-width: 768px) {
   .informacion-gn .informacion-gn__items img {
     max-width: 80vw;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .navbar-light .navbar__div .navbar-brand h1 {
+    font-size: 0.9em; } }
 
 @media (max-width: 425px) {
   .navbar-light .navbar__div .logotipo {
     height: 22px;
     width: 22px;
     margin-bottom: 11px; }
-  .navbar-light .navbar__div .navbar-brand {
-    font-size: 1.5em; }
+  .navbar-light .navbar__div .navbar-brand h1 {
+    font-size: 0.7em; }
   .navbar-light .navbar__div .navbar-toggler {
     font-size: 1rem;
     margin-bottom: 5px;

@@ -2,6 +2,11 @@
     flex-grow: unset;
 }
 .navbar-light .navbar-brand{
+    h1{
+        margin-bottom: 0;
+        font-size: 60px;
+        font-weight: bold;
+    }
     font-size: 60px;
     font-weight: bold;
     color:#6B7986;
@@ -19,7 +24,7 @@
             height: 28px;
             width: 28px;
             margin:0;
-            margin-bottom: 17px;
+            margin-bottom: 14px;
             margin-right: 4px;
             padding: 0;
             div ul li .nav__link{

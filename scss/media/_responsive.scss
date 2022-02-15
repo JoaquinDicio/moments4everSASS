@@ -23,7 +23,9 @@
                 margin-bottom: 11px;
             }
             .navbar-brand{
-                font-size:2em;
+                h1{
+                    font-size:1em;
+                }
             }
             .navbar-toggler{
                 font-size: 1.1rem;
@@ -50,6 +52,15 @@
                 }
         }
     }
+    .navbar-light{
+        .navbar__div{
+            .navbar-brand{
+                h1{
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
 }
 @media (max-width:425px) {
     .navbar-light{
@@ -60,7 +71,9 @@
                 margin-bottom: 11px;
             }
             .navbar-brand{
-                font-size: 1.5em;
+               h1{
+                   font-size: 0.7em;
+                }
             }
             .navbar-toggler{
                 font-size: 1rem;

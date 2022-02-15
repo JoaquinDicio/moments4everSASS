@@ -1,0 +1,27 @@
+
+// extend
+%estilosTarjetas {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.281);
+    border-radius: 20px;
+    height: auto;
+    padding:30px;
+    margin:15px;
+    max-width: 25vw;
+};
+
+// mapa
+$cambioColor:(
+    h2:blue,
+    h3:red,
+);
+@each $etiqueta, $color in $cambioColor {
+    ##{$etiqueta}{
+        color: $color;
+    }
+};
+// mixin
+@mixin fontStyle ($tamanio, $altura, $grosor) {
+    font-size: $tamanio; 
+    line-height: $altura;
+    font-weight: $grosor;
+}
