@@ -13,12 +13,6 @@
   margin: 15px;
   max-width: 25vw; }
 
-#h2 {
-  color: blue; }
-
-#h3 {
-  color: red; }
-
 .navbarPages {
   flex-grow: unset; }
 
@@ -159,6 +153,13 @@
   border-radius: 10px;
   max-width: 80vw; }
 
+.mainContacto {
+  height: 70vh; }
+  .mainContacto .container-md .row .col-sm-8 label {
+    font-size: 1.5em; }
+  .mainContacto .container-md .row .col-sm-8 button {
+    font-size: 1.3em; }
+
 @media (max-width: 1024px) {
   .navbar .navbar__div {
     line-height: 1; }
@@ -204,6 +205,18 @@
     margin-bottom: 5px;
     padding: 6px; } }
 
+@media (max-width: 321px) {
+  .navbar-light .navbar__div .logotipo {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 9px; }
+  .navbar-light .navbar__div .navbar-brand h1 {
+    font-size: 0.6em;
+    margin-right: 3px; }
+  .navbar-light .navbar__div .navbar-toggler {
+    font-size: .8rem;
+    margin-bottom: 5px; } }
+
 .footerDiv {
   height: auto;
   background-color: #6B7986;
@@ -220,7 +233,7 @@
     .footerDiv .footerDiv__item p {
       color: white;
       font-size: 1.5em;
-      margin: 0;
+      margin: 2px 0 0 0;
       font-weight: lighter;
       padding-top: 8px; }
     .footerDiv .footerDiv__item img {
@@ -231,6 +244,7 @@
       padding: 0%; }
 
 .copy {
+  padding-top: 10px;
   font-size: 1.1em;
   line-height: .8;
   background-color: #6B7986;

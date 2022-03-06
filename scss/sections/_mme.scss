@@ -9,16 +9,6 @@
     max-width: 25vw;
 };
 
-// mapa
-$cambioColor:(
-    h2:blue,
-    h3:red,
-);
-@each $etiqueta, $color in $cambioColor {
-    ##{$etiqueta}{
-        color: $color;
-    }
-};
 // mixin
 @mixin fontStyle ($tamanio, $altura, $grosor) {
     font-size: $tamanio; 
